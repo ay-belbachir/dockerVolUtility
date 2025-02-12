@@ -6,8 +6,8 @@
    - Cloner mon projet: ```git clone <URL DU PROJET>```
    - À la racine du projet, exécuter: ```docker compose  up -d```
    - (RDV sur http://localhos:8080)
-   - cliquer sur ```ADD PLUGINGS``` **pour voll 3 /plug-dump/plugins** pour vol 2 **/volu/plug-dump/overlays**
-   - ajouter vos dump et pluging dans le reprtoir ```plug-dump/``` (du repositori clonné) puis sub le booutton ADD
+   - ajouter vos dump et pluging dans le reprtoir ```plug-dump/```
+   - cliquer sur ```ADD PLUGINGS``` pour les plugungs de volatility 3 le path **/plug-dump/plugins** pour volatility2 le path **/volu/plug-dump/overlays**
    - une fois le dump ajouter au volume cliquer sur **New** pour l'ajouter au scan 
 
       <img src="https://github.com/ay-belbachir/dockerVolUtility-/blob/main/asset/capt.png" width="200" > 
