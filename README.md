@@ -10,4 +10,4 @@
    - ajouter vos dump et pluging dans le reprtoir ```plug-dump/``` (du repositori clonné) puis sub le booutton ADD
    - une fois le dump ajouter au volume cliquer sur **New** pour l'ajouter au scan 
 
-      <img src="./asetts/capt.png" alt="Description" width="200" > 
+      <img src="https://github.com/ay-belbachir/dockerVolUtility-/blob/main/asset/capt.png" width="200" > 
