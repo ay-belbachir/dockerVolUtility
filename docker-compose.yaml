@@ -1,0 +1,9 @@
+version: '3'
+services:
+  volutility:
+    image: kevthehermit/volutility
+    container_name: volutility
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./plug-dump:/plug-dump
