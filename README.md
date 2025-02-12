@@ -3,11 +3,10 @@
 
 1. **DOCKER**
 
-   - Cloner mon projet: ```git clone <URL DU PROJET>```
-   - À la racine du projet, exécuter: ```docker compose  up -d```
-   - (RDV sur http://localhos:8080)
-   - ajouter vos dump et pluging dans le reprtoir ```plug-dump/```
-   - cliquer sur ```ADD PLUGINGS``` pour les plugungs de volatility 3 le path **/plug-dump/plugins** pour volatility2 le path **/volu/plug-dump/overlays**
-   - une fois le dump ajouter au volume cliquer sur **New** pour l'ajouter au scan 
+- Cloner mon projet : ```git clone https://github.com/ay-belbachir/dockerVolUtility.git```, puis ```cd dockerVolUtility```
+- À la racine du projet, exécuter : ```docker compose up -d```, puis rendez-vous sur [http://localhost:8080](http://localhost:8080)
+- Ajouter vos dumps et plugins dans le répertoire du projet cloné, qui est en réalité un répertoire partagé entre votre conteneur et votre machine : ```plug-dump/```
+- Cliquer sur ```ADD PLUGINS``` pour les plugins de Volatility le path est **/plug-dump/plugins**. Pour Volatility 2, le path est **/volu/plug-dump/overlays**.
+- Une fois le dump ajouté au volume, cliquer sur **New** pour l'ajouter au scan.
 
-      <img src="https://github.com/ay-belbachir/dockerVolUtility-/blob/main/asset/capt.png" width="200" > 
+  <img src="https://github.com/ay-belbachir/dockerVolUtility-/blob/main/asset/capt.png" width="200" > 
